@@ -1,10 +1,10 @@
 nav {
   background: #282E3C;
-  height: 55px;
+  height: 70px;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 18.5px;
-  padding-bottom: 18.5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
