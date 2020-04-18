@@ -1,6 +1,6 @@
 nav {
   background: #282E3C;
-  height: 70px;
+  height: 55px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 18.5px;
@@ -78,5 +78,5 @@ img#logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(40,46,60,.94); 
+  box-shadow: inset 0 0 0 1000px rgba(40,46,60,.94);
 }
