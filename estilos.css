@@ -110,7 +110,22 @@ img#logo {
 }
 .col-6 {
   width: 49.9999999998%;
+  display: flex;
+
 }
+
+.col-6-justifyend {
+  justify-content: flex-end;
+
+}
+
+.col-6-justifystart {
+  justify-content:flex-start;
+
+}
+
+
+
 .col-7 {
   width: 58.3333333331%;
 }
@@ -147,5 +162,55 @@ h1 {
 .graphic-container {
   width: inherit;
   text-align: center;
-  
+
+}
+
+
+.button-orange {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    background-color: #EB8F00;
+    border-radius: 10px;
+
+    margin: 10px;
+    width: 247px;
+    height: 67px;
+    border-width: medium;
+    border-color: #00EB8F;
+    text-align: center;
+    line-height: 67px;
+    display: flex;
+    justify-content: space-around;
+      align-items: center;
+
+}
+
+.button-orange:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border: 0px solid #EB8F00;
+  border-width: medium;
+
+
+}
+
+.button-orange img {
+  height: 45px;
+  align-self: center;
+
+}
+
+.button-orange-margin-left {
+  margin-left: 20px;
+
+}
+
+
+.button-orange-margin-right {
+    margin-right: 20px;
 }
