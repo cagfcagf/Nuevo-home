@@ -345,3 +345,59 @@ h3 {
   background-repeat: no-repeat;
   background-size: 60%;
 }
+
+.prensa-container {
+  height: 370px;
+  background-color: #FAFAFA;
+}
+
+.slice {
+  display: flex;
+}
+
+.green-dot-left, .green-dot-right {
+  background: #00EB8F;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  align-self: center;
+}
+
+.green-dot-left{
+  background-image: url("icons/leftarrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.green-dot-right{
+  background-image: url("icons/rightarrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.slice-button-left {
+    text-align: -webkit-right;
+    margin: auto;
+}
+
+.slice-button-right {
+    margin: auto;
+}
+
+.slice-news {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chilevision {
+  height: 126px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url('images/Chilevision.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
