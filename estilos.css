@@ -324,3 +324,24 @@ h3 {
   margin: -50px auto;
 
 }
+
+.green-circle-rapidez {
+  background-image: url("icons/rapidez.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+.green-circle-seguridad {
+  background-image: url("icons/seguridad.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+.green-circle-ahorro {
+  background-image: url("icons/ahorro.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
