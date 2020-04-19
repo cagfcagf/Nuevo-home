@@ -60,6 +60,7 @@ img#logo {
   border-radius: 10px;
   border: 0px solid #00EB8F;
   border-width: medium;
+  transition: background-color 0.5s, border-radius 0.5s;
 
 
 
@@ -96,6 +97,12 @@ img#logo {
 
 .row {
   display: flex;
+}
+
+.value-preposition-container {
+  display: flex;
+  justify-content: center;
+  width: inherit;
 }
 
 .col-1 {
@@ -201,20 +208,25 @@ h1 {
   border: 0px solid #EB8F00;
   border-width: medium;
   fill: black;
+  transition: fill 0.5s;
 
 }
 
 .button-orange:hover #Trazado_22{
   fill: black;
+  transition: fill 0.5s;
 }
 .button-orange:hover #Trazado_23{
   fill: black;
+  transition: fill 0.5s;
 }
 .button-orange:hover #Trazado_24{
   fill: black;
+  transition: fill 0.5s;
 }
 .button-orange:hover #Trazado_25{
   fill: black;
+  transition: fill 0.5s;
 }
 
 
@@ -225,6 +237,8 @@ h1 {
   border: 0px solid #EB8F00;
   border-width: medium;
   fill: black;
+  transition: color 0.5s, background-color 0.5s, border-radius 0.5s, border-width 0.5s;
+
 }
 
 .button-orange svg {
@@ -247,4 +261,66 @@ h1 {
 
 .button-orange-margin-right {
     margin-right: 20px;
+}
+
+
+.value-left, .value-center, .value-right {
+  height: 350px;
+  width: 280px;
+  box-shadow: 10px 10px 34px -5px rgba(0,0,0,0.13);
+  border-radius: 20px;
+
+}
+
+.value-center {
+  margin: 0 90px 0 90px;
+}
+
+.value-left {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  color: #282E3C;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 0;
+  color: #EB8F00;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.value-preposition-container p {
+  margin: 0;
+  color: #282E3C;
+  text-align: center;
+  font-size: 16px;
+  padding: 37.5px;
+
+}
+
+.value-preposition-container h3 {
+  padding: 90px 0 0 0;
+}
+
+
+.green-circle {
+  background: #00EB8F;
+  border-radius: 50%;
+  height: 95px;
+  width: 95px;
+  align-self: center;
+  margin: -50px auto;
+
 }
