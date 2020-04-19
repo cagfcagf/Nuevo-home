@@ -401,3 +401,35 @@ h3 {
   background-repeat: no-repeat;
   background-size: 85%;
 }
+
+.success-figures-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.success-figures-container {
+  display: flex;
+}
+
+.figure-title {
+  margin: 0;
+  color: #EB8F00;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 47px;
+  font-weight: bolder;
+}
+
+.figure-detail {
+  margin: 0;
+  color: #282E3C;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.rightborder {
+  border-right: solid;
+  border-color: #00EB8F;
+
+}
