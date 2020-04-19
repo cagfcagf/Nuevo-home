@@ -346,6 +346,15 @@ h3 {
   background-size: 60%;
 }
 
+.green-circle-cristian {
+  background-image: url("images/cristian.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
 .prensa-container {
   height: 370px;
   background-color: #FAFAFA;
@@ -432,4 +441,15 @@ h3 {
   border-right: solid;
   border-color: #00EB8F;
 
+}
+
+.happy-users-container {
+  height: 1000px;
+
+
+  background-color: white;
+  background-image: url('images/greybackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
