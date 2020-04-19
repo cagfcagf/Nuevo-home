@@ -12,6 +12,8 @@ nav {
 
 }
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -60,11 +62,15 @@ img#logo {
   border-width: medium;
 
 
+
+
 }
 
-.button img {
+.button svg {
   height: 23px;
   align-self: center;
+
+
 }
 
 .icon-container {
@@ -175,35 +181,63 @@ h1 {
     color: white;
     background-color: #EB8F00;
     border-radius: 10px;
-
+    border: 0px solid #EB8F00;
     margin: 10px;
     width: 247px;
     height: 67px;
     border-width: medium;
-    border-color: #00EB8F;
+    border-color: #EB8F00;
     text-align: center;
     line-height: 67px;
     display: flex;
     justify-content: space-around;
-      align-items: center;
-
+    align-items: center;
 }
 
-.button-orange:hover {
-  color: black;
+.button-orange:hover #Rectangulo_34, .button-orange:hover #Trazado_26 {
+  color: #282E3C;
   background-color: white;
   border-radius: 10px;
   border: 0px solid #EB8F00;
   border-width: medium;
-
+  fill: black;
 
 }
 
-.button-orange img {
+.button-orange:hover #Trazado_22{
+  fill: black;
+}
+.button-orange:hover #Trazado_23{
+  fill: black;
+}
+.button-orange:hover #Trazado_24{
+  fill: black;
+}
+.button-orange:hover #Trazado_25{
+  fill: black;
+}
+
+
+.button-orange:hover {
+  color: #282E3C;
+  background-color: white;
+  border-radius: 10px;
+  border: 0px solid #EB8F00;
+  border-width: medium;
+  fill: black;
+}
+
+.button-orange svg {
   height: 45px;
   align-self: center;
 
+
 }
+
+#Trazado_22,#Trazado_23,#Trazado_24,#Trazado_25,#Trazado_26, #Rectangulo_34 {
+  fill: white;
+}
+
 
 .button-orange-margin-left {
   margin-left: 20px;
