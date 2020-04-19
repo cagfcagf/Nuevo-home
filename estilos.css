@@ -139,3 +139,13 @@ h1 {
   font-size: 29px;
   font-weight: bolder;
 }
+
+.graphic {
+  width: 1017px;
+}
+
+.graphic-container {
+  width: inherit;
+  text-align: center;
+  
+}
