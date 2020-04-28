@@ -1,3 +1,7 @@
+
+
+
+
 nav {
   background: #282E3C;
   height: 70px;
@@ -452,4 +456,40 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+}
+
+
+@media screen and (max-width:1024px) {
+.graphic {
+  width: 90vw;
+  }
+
+.chv4 {
+  display: none;
+}
+
+.value-preposition-container {
+  margin: 0 35px;
+}
+
+.figure-title {
+  font-size: 36px;
+
+
+}
+
+}
+
+@media screen and (max-width:768px) {
+
+  
+
+}
+
+@media screen and (max-width:480px) {
+
+}
+
+@media screen and (max-width:320px) {
+
 }
